@@ -1,5 +1,3 @@
-import logo from "./assets/logo-react.png";
-
 export default function Conteudo() {
   return (
     <main>
