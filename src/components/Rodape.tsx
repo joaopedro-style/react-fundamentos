@@ -3,7 +3,7 @@ export default function Rodape() {
     <>
       <footer>
         <h2>Pequeno site criado com React</h2>
-        <p>
+        <p style={{ color: "red", fontWeight: "bold" }}>
           Desenvolvido por <b>João Pedro</b> &copy; 2025
         </p>
       </footer>
