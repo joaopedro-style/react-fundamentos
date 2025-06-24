@@ -13,7 +13,11 @@ export default function Rodape() {
       <footer style={estilosRodape}>
         <h2>Pequeno site criado com React</h2>
         <p style={{ color: "red", fontWeight: "bold" }}>
-          Desenvolvido por <b>João Pedro</b> &copy; 2025
+          Desenvolvido por{" "}
+          <b>
+            <a href="">João Pedro</a>
+          </b>
+          &copy; 2025
         </p>
       </footer>
       <hr />
