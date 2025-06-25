@@ -1,5 +1,24 @@
 # Fundamentos de React
 
+## 07_tailwindcss
+
+O Tailwind CSS é um framework CSS utilitário que permite criar interfaces de forma rápida e personalizada. Em vez de classes pré-definidas para componentes inteiros (como em frameworks tradicionais como Bootstrap), o Tailwind oferece classes utilitárias de baixo nível para controlar cada aspecto do design (margem, padding, cor, tipografia, etc.).
+
+## Principais vantagens:
+
+Alta customização: Você estiliza diretamente no HTML com classes utilitárias, o que reduz a necessidade de escrever CSS customizado.
+
+Produtividade: Ajuda a construir layouts rapidamente, com menos contexto switching entre HTML e CSS.
+
+Design consistente: Usa um sistema de design (spacing, cores, fontes) pré-configurado que pode ser ajustado no arquivo de configuração.
+
+CSS enxuto em produção: Usa ferramentas como PurgeCSS para remover classes não utilizadas, gerando arquivos finais muito pequenos.
+
+### sites importantes
+
+- Site oficial: https://tailwindcss.com/
+- Documentação para uso com Vite: https://tailwindcss.com/docs/installation/using-vite
+
 ## 06_styled-components
 
 Styled Components é uma biblioteca (lib) muito usada com projetos React que permite escrever estilos CSS dentro do JavaScript usando a própria sintaxe do CSS. Os estilos ficam acoplados ao componente em que foram declarados.
