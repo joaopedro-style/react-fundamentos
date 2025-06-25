@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const StyledDicaDoDia = styled.section`
-  background-color: green;
+  background-color: #bce8bc;
   border-left: 5px solid darkgreen;
 `;
 
