@@ -1,8 +1,16 @@
 # Fundamentos de React
 
+## 08_props
+
+Props (abreviação de properties/propriedades) são parâmetros que um componente pode receber.
+
+Elas funcionam como atgumento de uma função, que podem receber dados de um componente pai para um componente filho.
+
+Props basicamente são uma forma de comunicação entre componentes.
+
 ## 07_tailwindcss
 
-O Tailwind CSS é um framework CSS utilitário que permite criar interfaces de forma rápida e personalizada. Em vez de classes pré-definidas para componentes inteiros (como em frameworks tradicionais como Bootstrap), o Tailwind oferece classes utilitárias de baixo nível para controlar cada aspecto do design (margem, padding, cor, tipografia, etc.).
+**O Tailwind CSS** é um framework CSS utilitário que permite criar interfaces de forma rápida e personalizada. Em vez de classes pré-definidas para componentes inteiros (como em frameworks tradicionais como Bootstrap), o Tailwind oferece classes utilitárias de baixo nível para controlar cada aspecto do design (margem, padding, cor, tipografia, etc.).
 
 ## Principais vantagens:
 
@@ -12,7 +20,7 @@ O Tailwind CSS é um framework CSS utilitário que permite criar interfaces de f
 
 - **Design consistente**: Usa um sistema de design (spacing, cores, fontes) pré-configurado que pode ser ajustado no arquivo de configuração.
 
-CSS enxuto em produção: Usa ferramentas como PurgeCSS para remover classes não utilizadas, gerando arquivos finais muito pequenos.
+- **CSS enxuto em produção**: Usa ferramentas como PurgeCSS para remover classes não utilizadas, gerando arquivos finais muito pequenos.
 
 ### sites importantes
 
