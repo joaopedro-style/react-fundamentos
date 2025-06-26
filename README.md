@@ -6,11 +6,11 @@ O Tailwind CSS é um framework CSS utilitário que permite criar interfaces de f
 
 ## Principais vantagens:
 
-Alta customização: Você estiliza diretamente no HTML com classes utilitárias, o que reduz a necessidade de escrever CSS customizado.
+- **Alta customização**: Você estiliza diretamente no HTML com classes utilitárias, o que reduz a necessidade de escrever CSS customizado.
 
-Produtividade: Ajuda a construir layouts rapidamente, com menos contexto switching entre HTML e CSS.
+- **Produtividade**: Ajuda a construir layouts rapidamente, com menos contexto switching entre HTML e CSS.
 
-Design consistente: Usa um sistema de design (spacing, cores, fontes) pré-configurado que pode ser ajustado no arquivo de configuração.
+- **Design consistente**: Usa um sistema de design (spacing, cores, fontes) pré-configurado que pode ser ajustado no arquivo de configuração.
 
 CSS enxuto em produção: Usa ferramentas como PurgeCSS para remover classes não utilizadas, gerando arquivos finais muito pequenos.
 
