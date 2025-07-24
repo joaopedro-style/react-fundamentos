@@ -14,6 +14,8 @@ export default function Conteudo() {
 
   const categorias = [...new Set(cursos.map((curso) => curso.categoria))];
 
+  console.log(categorias);
+
   return (
     <main className={estilos.conteudo}>
       <section
@@ -24,11 +26,12 @@ export default function Conteudo() {
 
         <p>Este é um exemplo de aplicação React.</p>
 
-        {categorias.map((categoria) => {
+        {categorias.map((categoria, index) => {
           return (
             <button
               onClick={() => setCategoriaAtiva(categoria)}
               className="rounded py-1 px-2 mr-1 my-1 bg-amber-200 hover:bg-green-300"
+              key={index}
             >
               {categoria}
             </button>
