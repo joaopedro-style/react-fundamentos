@@ -13,8 +13,6 @@ export default function Conteudo() {
 
   const categorias = [...new Set(cursos.map((curso) => curso.categoria))];
 
-  console.log(categorias);
-
   return (
     <>
       <section>
